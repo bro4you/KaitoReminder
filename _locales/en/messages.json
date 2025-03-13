@@ -1,0 +1,32 @@
+{
+  "greeting": {
+    "message": "Hello, I'm your YapFren"
+  },
+  "description": {
+    "message": "I'll help you remember to write tweets!"
+  },
+  "help": {
+    "message": "Help"
+  },
+  "intervalLabel": {
+    "message": "Interval:"
+  },
+  "minute1": {
+    "message": "1 min"
+  },
+  "minutes15": {
+    "message": "15 min"
+  },
+  "minutes30": {
+    "message": "30 min"
+  },
+  "hour1": {
+    "message": "1 hr"
+  },
+  "historyTitle": {
+    "message": "History:"
+  },
+  "clearHistory": {
+    "message": "Clear"
+  }
+}

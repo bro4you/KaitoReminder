@@ -1,0 +1,32 @@
+{
+  "greeting": {
+    "message": "Привет, я твой YapFren"
+  },
+  "description": {
+    "message": "Я помогу тебе не забыть писать твиты!"
+  },
+  "help": {
+    "message": "Помощь"
+  },
+  "intervalLabel": {
+    "message": "Интервал:"
+  },
+  "minute1": {
+    "message": "1 мин"
+  },
+  "minutes15": {
+    "message": "15 мин"
+  },
+  "minutes30": {
+    "message": "30 мин"
+  },
+  "hour1": {
+    "message": "1 ч"
+  },
+  "historyTitle": {
+    "message": "История:"
+  },
+  "clearHistory": {
+    "message": "Очистить"
+  }
+}

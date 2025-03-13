@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaito Reminder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <span class="matrix-layer-1"></span>
+  <span class="matrix-layer-2"></span>
+  <span class="matrix-layer-3"></span>
+
+  <h1 data-i18n="greeting">Hello, I'm your YapFren</h1>
+  <p data-i18n="description">I'll help you remember to write tweets!</p>
+  <button id="help-button" data-i18n="help">Help</button>
+
+  <!-- Настройки интервала -->
+  <div class="settings">
+    <label for="interval" data-i18n="intervalLabel">Interval:</label>
+    <select id="interval">
+      <option value="1" data-i18n="minute1">1 min</option>
+      <option value="15" data-i18n="minutes15">15 min</option>
+      <option value="30" selected data-i18n="minutes30">30 min</option>
+      <option value="60" data-i18n="hour1">1 hr</option>
+    </select>
+    <button id="disable-button">Disable</button>
+  </div>
+
+  <!-- История напоминаний -->
+  <div class="history">
+    <h2 data-i18n="historyTitle">History:</h2>
+    <ul id="history-list"></ul>
+    <button id="clear-history" data-i18n="clearHistory">Clear</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
